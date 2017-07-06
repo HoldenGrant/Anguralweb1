@@ -17,4 +17,11 @@
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
 </ul>
-<app-about></app-about>
+<nav>
+  <a routerLink="/about">about</a>
+  <a routerLink="/contact">contact</a>
+</nav>
+<hr>
+
+<!-- display body content dynamically -->
+<router-outlet></router-outlet>
