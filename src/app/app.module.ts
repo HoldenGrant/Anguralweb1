@@ -2,9 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+// 3rd party imports
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
+
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+
+
 
 @NgModule({
   declarations: [
@@ -13,6 +19,7 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
+    BsDropdownModule.forRoot(),
     BrowserModule,
     RouterModule.forRoot([
       {
