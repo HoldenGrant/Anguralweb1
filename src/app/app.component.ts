@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app test';
+  title = 'Angular 4';
   title_test = 'test title';
   obj = {
       id: "1",
